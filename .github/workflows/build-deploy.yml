@@ -77,12 +77,12 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Deploy to Vercel
-        uses: vercel/action@v5
+        uses: vercel/action@v3
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          production: true
+          prod: true
 
       - name: Deployment Status
         if: always()
