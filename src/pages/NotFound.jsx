@@ -35,7 +35,7 @@ export default function NotFound() {
           >
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Page Not Found</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-md mx-auto">
-              Oops! It looks like you've wandered into uncharted territory. The page you're looking for doesn't exist.
+              Oops! It looks like you have wandered into uncharted territory. The page you are looking for does not exist.
             </p>
           </motion.div>
 

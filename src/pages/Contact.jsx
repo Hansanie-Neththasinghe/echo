@@ -97,7 +97,7 @@ export default function Contact() {
                 animate={{ opacity: 1, scale: 1 }}
                 className="bg-green-100 dark:bg-green-900/30 border border-green-400 dark:border-green-700 rounded-lg p-4 text-green-800 dark:text-green-300"
               >
-                ✓ Thank you for your message! I'll get back to you soon.
+                ✓ Thank you for your message! I will get back to you soon.
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">

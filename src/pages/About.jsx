@@ -30,7 +30,7 @@ export default function About() {
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Who I Am</h2>
 
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
-              I'm Hansanie Neththasinghe, a Full Stack Developer with a passion for creating elegant, performant, and user-friendly
+              I am Hansanie Neththasinghe, a Full Stack Developer with a passion for creating elegant, performant, and user-friendly
               web applications. With a background in computer science and several years of professional experience, I specialize in
               building modern web solutions using React, Node.js, and other cutting-edge technologies.
             </p>
@@ -42,7 +42,7 @@ export default function About() {
 
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
               Beyond coding, I enjoy contributing to open-source projects, writing technical articles, and mentoring junior
-              developers. I'm always excited to collaborate on interesting projects and explore new technologies.
+              developers. I am always excited to collaborate on interesting projects and explore new technologies.
             </p>
 
             {/* Call to Action */}

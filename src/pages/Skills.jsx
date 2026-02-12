@@ -55,7 +55,7 @@ export default function Skills() {
         >
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Continuous Learning</h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            I'm passionate about staying updated with the latest technologies and best practices. I regularly:
+            I am passionate about staying updated with the latest technologies and best practices. I regularly:
           </p>
           <ul className="space-y-2 text-gray-600 dark:text-gray-400">
             <li>✓ Attend tech conferences and webinars</li>
