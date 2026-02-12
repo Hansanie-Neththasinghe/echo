@@ -5,7 +5,12 @@
   "framework": "vite",
   "outputDirectory": "dist",
   "env": {
-    "VITE_API_URL": "@vite_api_url"
+    "VITE_API_URL": "@vite_api_url",
+    "VITE_SITE_URL": "@vite_site_url",
+    "VITE_GA_ID": "@vite_ga_id",
+    "VITE_ENABLE_COMMENTS": "@vite_enable_comments",
+    "VITE_ENABLE_ANALYTICS": "@vite_enable_analytics",
+    "VITE_ENABLE_NEWSLETTER": "@vite_enable_newsletter"
   },
   "git": {
     "deploymentEnabled": {
