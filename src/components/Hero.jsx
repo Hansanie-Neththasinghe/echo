@@ -40,11 +40,11 @@ export default function Hero({ title, subtitle, actions, backgroundGradient = tr
           animate="visible"
           className="text-center"
         >
-          <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl font-bold mb-6 gradient-text">
+          <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl font-bold mb-6 gradient-text leading-tight pb-4">
             {title}
           </motion.h1>
 
-          <motion.p variants={itemVariants} className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
+          <motion.p variants={itemVariants} className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
             {subtitle}
           </motion.p>
 

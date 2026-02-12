@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Hansanie Neththasinghe | Full Stack Developer</title>
+        <title>Hansanie Neththasinghe</title>
         <meta name="description" content="Full Stack Developer creating modern web applications" />
         <meta property="og:title" content="Hansanie Neththasinghe | Full Stack Developer" />
         <meta property="og:description" content="Full Stack Developer creating modern web applications" />
@@ -41,7 +41,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <Hero
-        title="Crafting Digital Experiences"
+        title="Hansanie Neththasinghe"
         subtitle="Full Stack Developer | Web Artisan | Problem Solver. I build modern, performant web applications that users love."
         actions={[
           { label: 'View My Work', href: '#projects' },
@@ -141,9 +141,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary-500 to-blue-600 dark:from-primary-600 dark:to-blue-700">
         <div className="container-custom text-center text-white">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Let's Work Together</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Lets Work Together</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Have a project in mind? I'd love to hear about it. Let's create something amazing together.
+            Have a project in mind? Id love to hear about it. Lets create something amazing together.
           </p>
           <a href="/contact" className="inline-flex px-8 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-200">
             Start a Conversation
